@@ -114,10 +114,6 @@ Spells can take many turns to cast. The player *may* place down one **Word Card*
 
 If a **Word Card** is placed which completes a spell in the player's hand, the spell is immediately cast. The effect listed on the **Spell Card** is carried out. See [Casting Spells](#casting-spells) for complete information.
 
-Your character is only capable of casting spells listed in **Spell Cards** that you have in your **Hand**. Memorizing spells doesn't count!
-
-You can place **Word Cards** into your **Incantation Zone** before you know what spell you are going to cast. You don't even need a **Spell Card** in your hand to place down a **Word Card**. This can be used for many purposes such as minimizing the amount of turns required to cast a spell when you eventually get a hold of a spell card. Delivering words can also be an opportunity for bluffing, by leading an opponent to believe that you are casting a spell which you have no intention of completing.
-
 ### 4. Desist
 
 The end of your turn is declared, at which point it becomes the other player's turn.
@@ -127,4 +123,11 @@ The end of your turn is declared, at which point it becomes the other player's t
 
 ### Casting Spells
 
-and the **Spell Card** is discarded
+**Spells** are casted immediately when they have been completely uttered using **Word Cards** in the **Incantation Zone**.
+
+The **Incantation Zone** is a loop, which means that a correctly ordered 4 word spell in Incantation Zone slots 7, 8, 1, and 2 is a valid spell.
+
+
+Your character is only capable of casting spells listed in **Spell Cards** that you have in your **Hand**. Memorizing spells doesn't count!
+
+You can place **Word Cards** into your **Incantation Zone** before you know what spell you are going to cast. You don't even need a **Spell Card** in your hand to place down a **Word Card**. This can be used for many purposes such as minimizing the amount of turns required to cast a spell when you eventually get a hold of a spell card. Delivering words can also be an opportunity for bluffing, by leading an opponent to believe that you are invoking a spell which you have no intention of completing.
