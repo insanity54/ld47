@@ -1,15 +1,10 @@
 # GRID vs. Gaia Rulebook
 
-A 2 player spell casting game made during Ludum Dare 47
-
-Theme: Stuck in a loop
-
-Stuck in a ... time loop?
-
+A 2 player combatative spell casting board game made during [Ludum Dare](https://ldjam.com/) 47
 
 ## Lore
 
-A great war between Magic and Science has broken out. Many low-level ESPers and mages are suddenly thrown into combat, but there's a problem. Nobody knows any spells with which to attack or defend! It is your job as either a soldier of science, or a mongering mage to destroy the enemy and preserve your faction's dogmatic way of life.
+> A great war between Magic and Science has broken out. Many low-level ESPers and mages are suddenly thrown into combat, but there's a problem. Nobody knows any spells with which to attack or defend! It is your job as either a soldier of science, or a mongering mage to destroy the enemy and preserve your faction's dogmatic way of life.
 
 
 ## Factions
@@ -31,9 +26,9 @@ A great war between Magic and Science has broken out. Many low-level ESPers and 
 
 The game consists of
 
-  * n Spell cards
-  * n Word cards
-  * n Chance cards
+  * 24 Spell cards
+  * 64 Word cards
+  * 14 Chance cards
   * 2 Faction cards
   * 2 D20 dice
   * 1 D6 die
@@ -80,7 +75,7 @@ Roll a 6 sided die to see if your character finds a **Science Metaphysics Bluepr
 
 ### 3. Deliver
 
-Spells usually take many turns to cast. The player *must* place down one **Word Card** into their incantation zone to work towards a spell cast. **Word Cards** must be placed in the lowest numbered available **Incantation Zone** slot.
+Spells usually take many turns to cast. The player *must* place down exactly one **Word Card** into their **Incantation Zone** to work towards a spell cast. **Word Cards** must be placed in the lowest numbered available **Incantation Zone** slot.
 
 If a **Word Card** is placed which completes a spell in the player's hand, the spell is immediately cast. The effect listed on the **Spell Card** is carried out. See [Casting Spells](#casting-spells) for complete information.
 
@@ -184,18 +179,40 @@ There is nothing stopping a **Mage** from using a **GRID** word, or an **Esper**
 The side effect of Cross-Faction Word Usage is that the **Contaminated Spell** does not level up the character.
 
 
+## Chance
+
+Players may opt to cast a spell which belongs to the **wild** class. The effect of the spell is determined by a **Chance Card**
+
+### Chance Cards
+
+There are 14 **Chance Cards** in the game which have various effects. There are **Chance cards** which inflict more or less damage to the enemy depending on the faction you belong to. There are **Chance Cards** which inflict damage on the caster, rather than their opponent.
+
+There are also **Chance Cards** which act as a word card of your choice which can be later used to cast spells that would otherwise be difficult. This variety of **Chance Card** must be declared at the time they are drawn from the **Chance Card** stack.
+
 ## Combat
+
+Combat is the method of inflicting damage on the enemy in order to eliminate them from the game and secure a victory.
 
 ### Casting Spells
 
 **Spells** are casted immediately when they have been completely uttered using **Word Cards** in the **Incantation Zone**.
 
-The **Incantation Zone** is a loop, which means that a correctly ordered 4 word spell in Incantation Zone slots 7, 8, 1, and 2 is a valid spell.
-
-
 Your character is only capable of casting spells listed in **Spell Cards** that you have in your **Hand**. Memorizing spells doesn't count!
 
 You can place **Word Cards** into your **Incantation Zone** before you know what spell you are going to cast. You don't even need a **Spell Card** in your hand to place down a **Word Card**. This can be used for many purposes such as minimizing the amount of turns required to cast a spell when you eventually get a hold of a spell card. Delivering words can also be an opportunity for bluffing, by leading an opponent to believe that you are invoking a spell which you have no intention of completing.
+
+### Incantation Zone
+
+The **Incantation Zone** has 8 numbered slots for **Word Cards**. When placing **Word Cards** into the **Incanation Zone**, a small coin or gem is used to keep track of the slot in which a **Word Card** was most recently placed.
+
+The **Incantation Zone** is a loop, which means that once filled up with 8 **Word Cards**, the player will loop back around to slot 1 to continue placing **Word Cards**. Existing **Word Cards** are discarded as the loop continues and the player continues to place new **Word Cards**
+
+Consider the following example.
+
+> All 8 slots are filled with **Word Cards**. The next time the player can place a **Word Card** into their **Incantation Zone**, the existing **Word Card** in slot 1 will be discarded, followed by placing the new **Word Card** into slot 1. The coin or gem is moved to slot 1, to remind the player that slot 1 was the most recently used.
+
+Because the **Incantation Zone** is a loop, a correctly ordered 4 word **Spell** in **Incantation Zone** slots 7, 8, 1, and 2 is a valid **Spell**.
+
 
 ### Pure Spells
 
@@ -208,3 +225,5 @@ You can place **Word Cards** into your **Incantation Zone** before you know what
 ### Levelling Up
 
 **Pure Spells** which are successfully cast level up your character by being placed in the **Character Level Zone** after the effects are carried out. **Contaminated Spells** do not level up your character, and are discarded after their effects are carried out.
+
+Characters start at level zero. Leveling up gives the character a benefit of inflicting +1 damage per level. This damage bonus applies to *all* sources of damage, including **Spells**, and **Chance Cards**.
