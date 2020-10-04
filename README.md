@@ -2,6 +2,8 @@
 
 A 2 player combatative spell casting board game made during [Ludum Dare](https://ldjam.com/) 47
 
+![A view of the prototype game board](https://github.com/insanity54/ld47/blob/branch/art/spells.jpg?raw=true)
+
 ## Lore
 
 > A great war between Magic and Science has broken out. Many low-level ESPers and mages are suddenly thrown into combat, but there's a problem. Nobody knows any spells with which to attack or defend! It is your job as either a soldier of science, or a mongering mage to destroy the enemy and preserve your faction's dogmatic way of life.
@@ -26,10 +28,13 @@ A 2 player combatative spell casting board game made during [Ludum Dare](https:/
 
 The game consists of
 
-  * 24 Spell cards
   * 64 Word cards
+  * 24 Spell cards
   * 14 Chance cards
   * 2 Faction cards
+  * 2 Spell lists
+  * 2 Chance lists
+  * 2 Word lists
   * 2 D20 dice
   * 1 D6 die
 
