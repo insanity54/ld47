@@ -2,7 +2,7 @@
 
 A 2 player combatative spell casting board game made during [Ludum Dare](https://ldjam.com/) 47
 
-![A view of the prototype game board](https://github.com/insanity54/ld47/blob/branch/art/spells.jpg?raw=true)
+![A view of the prototype game board](https://github.com/insanity54/ld47/blob/master/art/spells.jpg?raw=true)
 
 ## Lore
 
