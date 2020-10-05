@@ -44,7 +44,7 @@ The game consists of
   2. Each player places a D20 near them which signifies the character's health. At the start of the game, each player has 16 health.
   3. Players randomly choose a faction by placing the two faction cards face down and each pointing to the card they want. Rock paper scissors settles any conflicts.
   4. Flip a coin to determine the player who goes first. The winner of the coin toss decides if they want to go first or second.
-  5. Each player draws 5 cards from the **Words** stack, starting with the player who is going first.
+  5. Each player draws 5 cards from the **Words** stack, starting with the player who is going second.
 
 ## Game Board Layout
 
@@ -80,11 +80,13 @@ Roll a 6 sided die to see if your character finds a **Science Metaphysics Bluepr
 
 ### 3. Deliver
 
-Spells usually take many turns to cast. The player *must* place down exactly one **Word Card** into their **Incantation Zone** to work towards a spell cast. **Word Cards** must be placed in the lowest numbered available **Incantation Zone** slot.
+Spells usually take many turns to cast. The player *may* place down one **Word Card** into their **Incantation Zone** to work towards a spell cast. **Word Cards** must be placed in the lowest numbered available **Incantation Zone** slot.
 
 If a **Word Card** is placed which completes a spell in the player's hand, the spell is immediately cast. The effect listed on the **Spell Card** is carried out. See [Casting Spells](#casting-spells) for complete information.
 
 ### 4. Desist
+
+You must end your turn with a maximum of 5 **Word Cards** in your hand, discarding any extra.
 
 The end of your turn is declared, at which point it becomes the other player's turn.
 
